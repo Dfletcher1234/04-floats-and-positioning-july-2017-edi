@@ -23,7 +23,7 @@ module ::Guard
     def create_alexa_markdown
       puts 'Creating new ALEXA.md'.green
       alexa_markdown = create_alexa(File.read('LESSON.md'))
-      File.write('../ALEXA.md', alexa_markdown)
+      File.write('ALEXA.md', alexa_markdown)
     end
 
     def create_alexa(lesson_markdown)
